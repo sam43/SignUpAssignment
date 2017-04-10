@@ -12,6 +12,8 @@
 		CB218A231E9A53FD00044D45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB218A211E9A53FD00044D45 /* Main.storyboard */; };
 		CB218A251E9A53FE00044D45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB218A241E9A53FE00044D45 /* Assets.xcassets */; };
 		CB218A281E9A53FE00044D45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB218A261E9A53FE00044D45 /* LaunchScreen.storyboard */; };
+		CB218A301E9A674500044D45 /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB218A2F1E9A674500044D45 /* ConfirmationViewController.swift */; };
+		CB218A321E9A67F000044D45 /* DOBPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB218A311E9A67F000044D45 /* DOBPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CB218A241E9A53FE00044D45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB218A271E9A53FE00044D45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB218A291E9A53FE00044D45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB218A2F1E9A674500044D45 /* ConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
+		CB218A311E9A67F000044D45 /* DOBPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DOBPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				CB218A1D1E9A53FD00044D45 /* AppDelegate.swift */,
 				CB218A1F1E9A53FD00044D45 /* ViewController.swift */,
 				CB218A211E9A53FD00044D45 /* Main.storyboard */,
+				CB218A311E9A67F000044D45 /* DOBPickerView.swift */,
+				CB218A2F1E9A674500044D45 /* ConfirmationViewController.swift */,
 				CB218A241E9A53FE00044D45 /* Assets.xcassets */,
 				CB218A261E9A53FE00044D45 /* LaunchScreen.storyboard */,
 				CB218A291E9A53FE00044D45 /* Info.plist */,
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB218A321E9A67F000044D45 /* DOBPickerView.swift in Sources */,
+				CB218A301E9A674500044D45 /* ConfirmationViewController.swift in Sources */,
 				CB218A201E9A53FD00044D45 /* ViewController.swift in Sources */,
 				CB218A1E1E9A53FD00044D45 /* AppDelegate.swift in Sources */,
 			);
@@ -297,6 +305,7 @@
 				CB218A2E1E9A53FE00044D45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
